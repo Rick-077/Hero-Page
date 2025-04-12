@@ -28,12 +28,14 @@ const HeroPage2 = () => {
           <p className="hero-stats-value">$2,323,432.23</p>
         </div>
       </div>
-      <div style={{ marginTop: '50px' }} className="">
-        < TreeRender/>
-      </div>
+      <div style={{ marginTop: '50px' }}>
+        <TreeRender />
       </div>
     </div>
-    <Footer/>
+  </div>
+  <div className="footer">
+    <Footer />
+  </div>
  </main>
   );
 };
