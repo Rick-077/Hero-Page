@@ -1,0 +1,17 @@
+import React from 'react';
+import Tree from './images/tree.svg';
+import Logo from './images/Logo.svg';
+import './Tree.css';
+import Circle from './Circle.jsx'
+const TreeRender = () => {
+return (
+    <div className="tree-container">
+            <div src= '' alt="Tree" className="tree-image">
+                <Circle/>
+                <img src={Logo} alt="Logo" className="logo-image" />
+            </div>
+    </div>
+);
+};
+
+export default TreeRender;
