@@ -95,6 +95,7 @@
     object-fit: cover; 
     border-radius: 50%;
   }
+  .l1, .l2,
   .inner-image-green:hover {
     color: aqua;
     transform: 

@@ -125,3 +125,9 @@
   margin-top: auto;
   padding-bottom: 4rem;
 }
+
+@media (max-width: 767px) {
+  .content{
+    margin-bottom: 300px;
+  }
+}

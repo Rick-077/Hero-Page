@@ -34,4 +34,7 @@
     .logo-image {
         display: none;
     }
+    .tree-image {
+        width: 400px;
+    }
 }
