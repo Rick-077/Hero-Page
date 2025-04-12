@@ -8,7 +8,7 @@ import TreeRender from './Tree.jsx';
 import Footer from './Footer.jsx';
 const HeroPage2 = () => {
   return (
- <body>
+ <main>
     <div className="hero-container">
       <div className="hero-bg left" style={{ backgroundImage: `url(${leftBg})` }}>
         <div className="gradient-overlay left" />
@@ -34,7 +34,7 @@ const HeroPage2 = () => {
       </div>
     </div>
     <Footer/>
- </body>
+ </main>
   );
 };
 
