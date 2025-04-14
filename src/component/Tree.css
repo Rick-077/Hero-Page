@@ -14,7 +14,7 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    z-index: -2;
+    z-index: 1;
 }
 /* Center all content inside the tree image */
 /* Logo image on top of the tree image */
@@ -26,7 +26,7 @@
     top: 50%; /* Center vertically */
     left: 50%; /* Center horizontally */
     transform: translate(-50%, -50%); /* Adjust for true centering */
-    z-index: -1; /* Ensure it stays on top of the tree image */
+    z-index: 1; /* Ensure it stays on top of the tree image */
 }
 
 /* Hide logo image in mobile view */
@@ -35,6 +35,6 @@
         display: none;
     }
     .tree-image {
-        width: 400px;
+        width: 300px;
     }
 }

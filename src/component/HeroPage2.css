@@ -30,15 +30,6 @@
     height: auto;
     text-align: center; /* Optional: Center text inside */
 }
-.page-container {
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
-  overflow: hidden;
-  background-color: #1F1E1E;
-  color: #D2CAC3;
-  font-family: Roboto, sans-serif;
-}
 
 .hero-bg {
   position: fixed;
@@ -103,15 +94,16 @@
 
 .hero-stats-label {
   padding-top: 20px;
-  font-size: 1rem;
+  font-size: 16px;
   color: #D2CAC3;
   text-transform: uppercase;
   letter-spacing: 0.4px;
+  font-weight: 400;
 }
 
 .hero-stats-value {
   font-size: 3.5rem; 
-  color: white;
+  color: #DBD5CF;
   margin-top: 0.5rem;
   font-weight: 500;
 }
@@ -130,4 +122,26 @@
   .content{
     margin-bottom: 300px;
   }
+}
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.hero-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer {
+  margin-top: auto;
+}
+.main{
+  background: url('./images/betterbank.png') no-repeat center center/cover;
+  width: 100%;
+  height: auto; /* Ensures it takes up the full viewport height */
+  scroll-behavior: smooth;
 }

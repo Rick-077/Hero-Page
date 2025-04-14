@@ -36,31 +36,37 @@
   
   /*boxes*/
  .image-word{
+  margin-top: 14px;
   margin-left: -80px;
+  font-weight: 500;
   width: 200px;
   padding: 10px;
   background: #E87510;
   text-transform: uppercase;
   letter-spacing: 0.4px;
-  border-radius: 8px;
+  border-radius: 4px;
  }
  .image-green{
+  margin-top: 14px;
   margin-left: -50px;
-  width: 170px;
+  font-weight: 500;
+  width: 200px;
   padding: 10px;
   background: #389641;
   text-transform: uppercase;
   letter-spacing: 0.4px;
-  border-radius: 8px;
+  border-radius: 4px;
  }
 .image-mix {
-  width: 170px;
+  margin-top: 14px;
+  margin-left: -80px;
+  font-weight: 500;
+  width: 200px;
   padding: 10px;
-  margin-left: -50px;
   background: linear-gradient(to right, #E87510, #389641);
   text-transform: uppercase;
   letter-spacing: 0.4px;
-  border-radius: 8px;
+  border-radius: 4px;
 }
 
 
@@ -89,33 +95,67 @@
   transition: transform 0.3s ease;
   border: 3px #389641 solid;
 }
+/* Base styles for both types */
+.inner-image, .inner-image-green, .inner-image-mix {
+  z-index: 2;
+  transition: all 0.3s ease; /* Use 'all' to transition all properties */
+  cursor: pointer; /* Add pointer cursor */
+}
+
+/* Specific border color for green variant */
+.inner-image-mix {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  transform: 
+    rotate(var(--angle)) 
+    translateX(219px) 
+    rotate(calc(-1 * var(--angle)));
+  transition: transform 0.3s ease;
+  border: 3px #c1e10db1 solid;
+}
+
+/* Hover styles for both */
+.inner-image-green:hover {
+  transform: 
+    rotate(var(--angle)) 
+    translateX(219px) 
+    rotate(calc(-1 * var(--angle))) 
+    scale(1.2);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  color: aquamarine;
+
+}
+.inner-image:hover{
+  transform: 
+  rotate(var(--angle)) 
+  translateX(219px) 
+  rotate(calc(-1 * var(--angle))) 
+  scale(1.2);
+box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+color: gold;
+z-index: 2;
+}
+.inner-image-mix:hover{
+  transform: 
+  rotate(var(--angle)) 
+  translateX(219px) 
+  rotate(calc(-1 * var(--angle))) 
+  scale(1.2);
+box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+color: gold;
+z-index: 2;
+}
 .image-inner {
     width: 100%;
     height: 100%;
     object-fit: cover; 
     border-radius: 50%;
   }
-  .l1:hover, .l2:hover,
-  .inner-image-green:hover {
-    color: aqua;
-    transform: 
-      rotate(var(--angle)) 
-      translateX(219px) 
-      rotate(calc(-1 * var(--angle))) 
-      scale(1.2); /* Slightly larger scale */
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Add shadow effect */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
-  }
-  .inner-image:hover {
-    color:gold;
-    transform: 
-      rotate(var(--angle)) 
-      translateX(219px) 
-      rotate(calc(-1 * var(--angle))) 
-      scale(1.2); /* Slightly larger scale */
-    z-index: 2; /* Bring to the front */
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Add shadow effect */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  .link{
+    color: #1F1E1E;
+    text-decoration: none;
   }
   @media (max-width: 767px) {
     /* Mobile Styles */
@@ -137,14 +177,16 @@
       box-shadow: none !important;
       background: transparent !important;
     }
-  
-    .inner-image, .inner-image-green {
+  .image-green,.image-word,.image-mix{
+    margin-left: -70px;
+  }
+    .inner-image, .inner-image-green, .inner-image-mix {
       position: relative !important;
       transform: none !important;
       width: 70px !important;
       height: 70px !important;
-      margin: 15px 0 !important;
-      z-index: 1 !important; /* Fix negative z-index */
+      margin: 15px !important;
+      margin-bottom: 50px !important;
     }
   
     .inner-image:hover, .inner-image-green:hover {

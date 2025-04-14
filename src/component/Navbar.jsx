@@ -7,22 +7,22 @@ const Navbar = () => {
 
   return (
     <nav className="navbar-container">
-      {/* Logo - far left */}
+      {/* Logo*/}
       <div className="logo-icon">
         <img src={slogo} alt="Logo" className="logo" />
       </div>
 
-      {/* Links - left side after logo */}
+      {/* Links */}
       <div className={`navbar-links ${menuOpen ? 'open' : ''}`}>
-  <div className="nav-link active">Home</div>
-  <div className="nav-link">link 1</div>
-  <div className="nav-link">link 1</div>
-  <div className="nav-link">link 1</div>
+  <a className="nav-link" href="https://betterbank.io/">Home</a>
+  <a className="nav-link" href="https://presale.betterbank.io/presale/">Presale</a>
+  <a className="nav-link" href="https://testnet.betterbank.io/">Testnet</a>
+  <a className="nav-link" href="https://share.proto.io/SF6XXG/fullscreen/">Test page</a>
 </div>
 
-      {/* App Button - far right with auto margin */}
+      {/* App Button*/}
       <div className="app-button">
-        <div className="app-button-text">go to app</div>
+        <a className="app-button-text" href="https://share.proto.io/SF6XXG/fullscreen/">go to app</a>
       </div>
 
       {/* Hamburger Button - only visible on mobile */}
