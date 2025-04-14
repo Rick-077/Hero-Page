@@ -12,7 +12,7 @@ const HeroPage2 = () => {
       <div className='content'>
       <div className="hero-content">
         <img src={slogo} alt="Logo" className="hero-logo" />
-        <h1 className="hero-title">Betterbank</h1>
+        <h1 className="hero-title">BetterBank</h1>
         <b className="hero-subtitle">Where finance meets freedom</b>
         <div className="hero-stats">
           <p className="hero-stats-label">Total value on platform</p>

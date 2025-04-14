@@ -140,8 +140,11 @@
   margin-top: auto;
 }
 .main{
-  background: url('./images/betterbank.png') no-repeat center center/cover;
+
+  background: url('./images/betterbank.webp') no-repeat;
+  background-size: cover;
+  background-position: center;
   width: 100%;
-  height: auto; /* Ensures it takes up the full viewport height */
+  height: 100%;
   scroll-behavior: smooth;
 }
