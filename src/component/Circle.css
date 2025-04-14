@@ -1,4 +1,5 @@
  /*Circle */
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@400;500&display=swap');
   .circle {
     width: 443px;
     height: 443px;
@@ -38,7 +39,7 @@
  .image-word{
   margin-top: 14px;
   margin-left: -80px;
-  font-weight: 500;
+  font-weight: 800;
   width: 200px;
   padding: 10px;
   background: #E87510;
@@ -49,7 +50,7 @@
  .image-green{
   margin-top: 14px;
   margin-left: -50px;
-  font-weight: 500;
+  font-weight: 800;
   width: 200px;
   padding: 10px;
   background: #389641;
@@ -59,8 +60,8 @@
  }
 .image-mix {
   margin-top: 14px;
-  margin-left: -80px;
-  font-weight: 500;
+  margin-left: -50px;
+  font-weight: 800;
   width: 200px;
   padding: 10px;
   background: linear-gradient(to right, #E87510, #389641);
@@ -73,8 +74,8 @@
 
 .inner-image {
   position: absolute;
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   transform: 
     rotate(var(--angle)) 
@@ -85,8 +86,8 @@
 }
 .inner-image-green {
   position: absolute;
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   transform: 
     rotate(var(--angle)) 
@@ -105,8 +106,8 @@
 /* Specific border color for green variant */
 .inner-image-mix {
   position: absolute;
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   transform: 
     rotate(var(--angle)) 

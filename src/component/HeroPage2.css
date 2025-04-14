@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@400;500&display=swap');
 .hero-content{
     margin-top: 170px;
 }
@@ -79,13 +80,14 @@
   margin-bottom: 0.5rem;
   color: #D2CAC3;
   letter-spacing: 0.4px;
+  font-weight: 800;
 }
 
 .hero-subtitle {
   font-weight: 1000;
   font-size: 1.5rem;
   color: #D2CAC3;
-  font-weight: 300;
+  font-weight: 800;
 }
 
 .hero-stats {
@@ -105,7 +107,7 @@
   font-size: 3.5rem; 
   color: #DBD5CF;
   margin-top: 0.5rem;
-  font-weight: 500;
+  font-weight: 800;
 }
 
 .bottom-section {
@@ -140,8 +142,8 @@
   margin-top: auto;
 }
 .main{
-
   background: url('./images/betterbank.webp') no-repeat;
+  font-family: 'Inter', sans-serif; 
   background-size: cover;
   background-position: center;
   width: 100%;

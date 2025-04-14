@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@400;500&display=swap');
 .navbar-container {
   width: 100%;
   padding-bottom: 16px;
@@ -9,7 +9,7 @@
   background: rgba(255, 255, 255, 0.01);
   backdrop-filter: blur(5px);
   display: flex;
-  align-items: center;
+  font-family: 'Inter', sans-serif; 
   justify-content: flex-start;
   flex-wrap: wrap;
   z-index: 1000;
@@ -51,9 +51,9 @@
 
 .nav-link {
   height: auto;
-  font-family: Roboto, sans-serif;
+  font-family: 'Inter', sans-serif; 
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
   color: #D2CAC3;
   letter-spacing: 0.4px;
@@ -81,8 +81,8 @@
 .app-button {
   background: #D2CAC3;
   font-size: 14px;
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
+  font-family: 'Inter', sans-serif; 
+  font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.4px;
   padding: 6px 16px;
@@ -101,8 +101,8 @@
 .app-button-text{
   color: #1F1E1E;
   text-decoration: none;
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
+  font-family: 'Inter', sans-serif; 
+  font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.4px;
 }
