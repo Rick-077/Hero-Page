@@ -139,9 +139,12 @@
 .footer {
   margin-top: auto;
 }
+<<<<<<< HEAD
 .main{
   background: url('./images/betterbank.png') no-repeat center center/cover;
   width: 100%;
   height: auto; /* Ensures it takes up the full viewport height */
   scroll-behavior: smooth;
 }
+=======
+>>>>>>> 78076c97fbef8969aef919775d03b80cbdb398b4
