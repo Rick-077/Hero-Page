@@ -8,7 +8,7 @@ return (
     <div className="tree-container">
             <div src= '' alt="Tree" className="tree-image">
                 <Circle/>
-                <img src={Logo} alt="Logo" className="logo-image" />
+                <img src={Logo} alt="Logo" className="logo-image"  onContextMenu={(e) => e.preventDefault()} draggable="false" />
             </div>
     </div>
 );

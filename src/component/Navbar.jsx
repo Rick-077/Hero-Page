@@ -7,12 +7,11 @@ const Navbar = () => {
 
   return (
     <nav className="navbar-container">
-      {/* Logo*/}
-      <div className="logo-icon">
-        <img src={slogo} alt="Logo" className="logo" />
-      </div>
+      {/* Logo */}
+        <div className="logo-icon">
+          <img src={slogo} alt="Logo" className="logo" onContextMenu={(e) => e.preventDefault()} draggable="false" />
+        </div>
 
-      {/* Links */}
       <div className={`navbar-links ${menuOpen ? 'open' : ''}`}>
   <a className="nav-link" href="https://betterbank.io/">Home</a>
   <a className="nav-link" href="https://presale.betterbank.io/presale/">Presale</a>

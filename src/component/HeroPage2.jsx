@@ -11,7 +11,7 @@ const HeroPage2 = () => {
       < Navbar/>
       <div className='content'>
       <div className="hero-content">
-        <img src={slogo} alt="Logo" className="hero-logo" />
+        <img src={slogo} alt="Logo" className="hero-logo" onContextMenu={(e) => e.preventDefault()} draggable="false" />
         <h1 className="hero-title">BetterBank</h1>
         <b className="hero-subtitle">Where finance meets freedom</b>
         <div className="hero-stats">

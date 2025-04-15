@@ -63,7 +63,7 @@ const Circle = () => {
           className={`${item.className} l${index + 1} link`}
           style={{ '--angle': item.angle }}
         >
-          <img className="image-inner" src={item.src} alt={item.alt} />
+          <img className="image-inner" src={item.src} alt={item.alt} onContextMenu={(e) => e.preventDefault()} draggable="false"  />
           <div 
             style={{ '--angle': item.angle }} 
             className={item.imageClass}
