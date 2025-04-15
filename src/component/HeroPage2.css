@@ -121,6 +121,9 @@
 }
 
 @media (max-width: 767px) {
+  .main{
+    width: auto;
+  }
   .content{
     margin-bottom: 300px;
   }
