@@ -18,6 +18,7 @@ const Navbar = () => {
   <a className="nav-link" href="https://presale.betterbank.io/presale/">Presale</a>
   <a className="nav-link" href="https://testnet.betterbank.io/">Testnet</a>
   <a className="nav-link" href="https://share.proto.io/SF6XXG/fullscreen/">Test page</a>
+  <a className="nav-link" href="https://t.me/better_bank">Telegram</a>
 </div>
 
       {/* App Button*/}
