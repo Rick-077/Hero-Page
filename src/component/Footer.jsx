@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './Navbar.css';
-import slogo from './images/Logo.svg';
 import './Footer.css';
 
 const Footer = () => {
