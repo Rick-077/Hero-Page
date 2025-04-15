@@ -104,6 +104,7 @@
 }
 
 .hero-stats-value {
+  width: auto;
   font-size: 3.5rem; 
   color: #DBD5CF;
   margin-top: 0.5rem;
@@ -122,10 +123,16 @@
 
 @media (max-width: 767px) {
   .main{
-    width: auto;
+      background: url('./images/betterbank.webp') no-repeat;
+    width: 100%;
   }
-  .content{
-    margin-bottom: 300px;
+
+  .hero-stats-value {
+    width: auto;
+    font-size: 2.5rem; 
+    color: #DBD5CF;
+    margin-top: 0.5rem;
+    font-weight: 800;
   }
 }
 .page-container {
@@ -149,7 +156,7 @@
   font-family: 'Inter', sans-serif; 
   background-size: cover;
   background-position: center;
-  width: 100%;
+  width: auto;
   height: 100%;
   scroll-behavior: smooth;
 }
