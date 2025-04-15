@@ -29,7 +29,7 @@
     align-items: center;
     justify-content: center;
     height: auto;
-    text-align: center; /* Optional: Center text inside */
+    text-align: center;
 }
 
 .hero-bg {

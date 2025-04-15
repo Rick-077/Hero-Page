@@ -1,6 +1,6 @@
-/* tree.css */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@400;500&display=swap');
-/* General styles for full-screen tree image */
+
 .tree-image {
     font-family: 'Inter', sans-serif; 
     margin-top: 40px;
@@ -10,32 +10,35 @@
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 400px; /* Full screen height */
-    background-image: url('./images/tree.svg'); /* Replace with your tree image path */
+    height: 400px; 
+    background-image: url('./images/tree.svg'); 
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     z-index: 1;
 }
-/* Center all content inside the tree image */
-/* Logo image on top of the tree image */
+
 .logo-image {
     height: auto;
     width: 200px;
     display: block;
     position: absolute;
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Adjust for true centering */
-    z-index: 1; /* Ensure it stays on top of the tree image */
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
 }
+.tree-container{}
 
-/* Hide logo image in mobile view */
 @media (max-width: 768px) {
     .logo-image {
         display: none;
     }
     .tree-image {
-        width: 300px;
+        background-image: url('./images/mobile_background.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 470px;
+        height: 100%; 
     }
 }

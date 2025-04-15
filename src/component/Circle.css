@@ -99,11 +99,11 @@
 /* Base styles for both types */
 .inner-image, .inner-image-green, .inner-image-mix {
   z-index: 2;
-  transition: all 0.3s ease; /* Use 'all' to transition all properties */
-  cursor: pointer; /* Add pointer cursor */
+  transition: all 0.3s ease; 
+  cursor: pointer;
 }
 
-/* Specific border color for green variant */
+
 .inner-image-mix {
   position: absolute;
   width: 100px;
@@ -167,7 +167,7 @@ z-index: 2;
     .circle {
       margin-top: 200px;
       display: flex !important;
-      flex-direction: column;
+      flex-direction: column-reverse;
       align-items: center;
       width: 100%;
       height: auto;
