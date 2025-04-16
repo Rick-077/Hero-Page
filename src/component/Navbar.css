@@ -16,7 +16,7 @@
   margin-left: auto;
 }
 .logo{
-  margin: 0px 50px 50px 50px;
+  margin: 0px 0px 0px 50px;
   height: 30px;
 }
 .logo-icon {
@@ -92,6 +92,9 @@
   margin-left: auto; 
   margin-right: 100px;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .app-button:hover {
@@ -110,13 +113,15 @@
 @media (max-width: 768px) {
   .menu-toggle {
     display: block;
-    margin-left: auto;
-    order: 1;
+    margin-left: 20px;
+    order: 0;
   }
-  
+  .logo{
+    margin: 0px 0px 0px 20px;
+  }
   .app-button {
-    order: 2;
-    margin-left: 24px;
+    order: 2; 
+    margin-left: auto;
   }
   
   .navbar-links {
@@ -143,11 +148,13 @@
   }
   
   .logo-icon {
-    order: 0;
+    margin-top: 7px;
+    order: 1;
   }
   
   .menu-toggle:hover {
     transform: scale(1.1);
+    transition: 0s;
   }
 
   .hero-title {
