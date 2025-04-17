@@ -1,19 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@400;500&display=swap');
+.banner {
+  width: 100%;
+  display: block; /* Removes inline spacing under the image */
+}
+.banner:hover{
+  scale: 1.02;
+  transition: 0.1s;
+}
 .navbar-container {
   width: 100%;
   padding-bottom: 16px;
-  padding-top: 16px;
-  position: absolute;
-  top: 0;
-  left: 0;
+  padding-top: 16px; /* Removes top padding causing the gap */
   background: rgba(255, 255, 255, 0.01);
   backdrop-filter: blur(5px);
   display: flex;
   font-family: 'Inter', sans-serif; 
   justify-content: flex-start;
   flex-wrap: wrap;
-  z-index: 1000;
   margin-left: auto;
+}
+.nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
 }
 .logo{
   margin: 0px 0px 0px 50px;
@@ -77,7 +87,6 @@
   transform: translateX(-50%); 
   transition: width 1s ease;
 }
-
 .app-button {
   background: #D2CAC3;
   font-size: 14px;

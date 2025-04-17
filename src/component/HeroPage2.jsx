@@ -4,7 +4,7 @@ import Navbar from './Navbar.jsx';
 import './HeroPage2.css';
 import TreeRender from './Tree.jsx';
 import Footer from './Footer.jsx';
-const HeroPage2 = () => {
+const HeroPage2 = () => { 
   return (
  <main className='main'>
     <div className="hero-container">

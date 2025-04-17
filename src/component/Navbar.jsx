@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import slogo from './images/Logo.svg';
+import Banner from  './images/banner.png';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
+<div className='nav'>
+<a href="https://presale.betterbank.io/presale/"><img className='banner' src={Banner}alt="" /></a>
     <nav className="navbar-container">
       {/* Logo */}
         <div className="logo-icon">
@@ -14,7 +17,6 @@ const Navbar = () => {
 
       <div className={`navbar-links ${menuOpen ? 'open' : ''}`}>
   <a className="nav-link" href="https://betterbank.io/">Home</a>
-  <a className="nav-link" href="https://presale.betterbank.io/presale/">Presale</a>
   <a className="nav-link" href="https://testnet.betterbank.io/">Testnet</a>
   <a className="nav-link" href="https://share.proto.io/SF6XXG/fullscreen/">UI showcase</a>
   <a className="nav-link" href="https://t.me/better_bank">Telegram</a>
@@ -31,6 +33,7 @@ const Navbar = () => {
         {menuOpen ? '✕' : '☰'}
       </button>
     </nav>
+</div>
   );
 };
 
