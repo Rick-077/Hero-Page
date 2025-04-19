@@ -21,10 +21,12 @@
   border-bottom: 0.01px solid #ffffff0f;
 }
 .nav{
+  width: 100%;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1000;
+  display: block; /* Removes inline spacing under the image */
 }
 .logo{
   margin: 0px 0px 0px 50px;
