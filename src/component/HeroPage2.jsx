@@ -19,7 +19,7 @@ const HeroPage2 = () => {
           <p className="hero-stats-value">$2,323,432.23</p>
         </div>
       </div>
-      <div style={{ marginTop: '50px', width: '100%', display:'flex', flexDirection: 'row', justifyContent:'center'}}>
+      <div className='treeR'>
         <TreeRender />
       </div>
     </div>
