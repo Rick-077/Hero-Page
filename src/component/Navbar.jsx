@@ -17,7 +17,6 @@ const Navbar = () => {
 
       <div className={`navbar-links ${menuOpen ? 'open' : ''}`}>
   <a className="nav-link" href="https://betterbank.io/">Home</a>
-  <a className="nav-link" href="https://testnet.betterbank.io/">Testnet</a>
   <a className="nav-link" href="https://share.proto.io/SF6XXG/fullscreen/">UI showcase</a>
   <a className="nav-link" href="https://t.me/better_bank">Telegram</a>
   <a className="nav-link" href="https://discord.gg/zPzF29vUrn">discord</a>

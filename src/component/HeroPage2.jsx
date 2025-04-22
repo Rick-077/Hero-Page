@@ -15,8 +15,9 @@ const HeroPage2 = () => {
         <h1 className="hero-title">BetterBank</h1>
         <b className="hero-subtitle">Where finance meets freedom</b>
         <div className="hero-stats">
-          <p className="hero-stats-label">Total value on platform</p>
-          <p className="hero-stats-value">$2,323,432.23</p>
+          <p className="hero-stats-label">Total value on platform 
+            <br />(Coming Soon)</p>
+          <p className="hero-stats-value">$--,---,---</p>
         </div>
       </div>
       <div className='treeR'>
